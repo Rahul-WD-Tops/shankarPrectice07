@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        prompt("plz enter your name");
+
+    </script>
+
+    <!-- .................................................. -->
+    <button onclick="myFunction()">Yaha Dabaye</button>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            const person = prompt("Plzz enter your name", "");
+            if (person != null) {
+                document.getElementById("demo").innerHTML
+                    = "Hello " + person + " ! kem cho aaj";
+            }
+        }
+    </script>
+
+    <!-- .................................................................... -->
+    <button onclick="likekre()">click me</button>
+
+    <p id="rahul"></p>
+    <script>
+        function likekre() {
+
+            const person = prompt("hello! ", "");
+            if (person != null) {
+                document.getElementById("rahul").innerHTML
+                    = "Hello " + person + " ! .......";
+            }
+        }
+
+    </script>
+    <!-- ....................................... -->
+
+
+
+
+    <button onclick="army()">clickkro</button>
+    <p id="fouji"></p>
+
+    <script>
+        function army() {
+            const person = prompt("kese ho bhaiyo")
+            document.getElementById("fouji").innerHTML
+                = "hello " + person + " bhakkam";
+
+        }
+    </script>
+    <!-- ............................................ -->
+
+    <button onclick="helloji()">Dabaye</button>
+    <p id="raj"></p>
+    <script>
+        function helloji() {
+            const person = prompt("hello dosto")
+            document.getElementById(raj).innerHTML
+                = "hello" + person + " ! mandar vala";
+        }
+    </script>
+
+</body>
+
+</html>
